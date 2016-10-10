@@ -136,8 +136,8 @@ body{
     height:100%;
 }
 a.button{
-    width: 100px;
-    height: 35px;
+    width: 150px;
+    height: 40px;
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
