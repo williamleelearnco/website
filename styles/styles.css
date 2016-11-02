@@ -55,6 +55,14 @@
     background-color: #479DFF;
     margin:0 auto;
 }
+.proj{
+    width: 95%;
+    background-color: #479DFF;
+    margin:0 auto;
+}
+.projspace{
+    margin-bottom: 1cm;
+}
 .awa{
     width: 95%;
     background-color: #66ADFE;
@@ -158,3 +166,4 @@ a.button:hover {
 .resume{
     padding-top:15px;
 }
+
