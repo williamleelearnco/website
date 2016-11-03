@@ -42,6 +42,12 @@
     font-family: 'Ubuntu', sans-serif;
     color: #FFFFFF;
 }
+.projdescrip{
+    display: inline;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
 .entrycontent{
     text-align: left;
     padding-left: 35%;
@@ -160,10 +166,18 @@ a.button{
 }
 a.button:hover {
     -moz-transform: scale(1.3);
-        -webkit-transform: scale(1.3);
-        transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 .resume{
     padding-top:15px;
 }
+
+a.proj:link  {text-decoration: none; color: #FFFFFF;}
+a.proj:hover {text-decoration: none; color: black;}
+a.proj:active {text-decoration: none; color: #5A5A5A;}
+
+
+a.git:link {text-decoration: none; color: black;}
+a.git:active {text-decoration: none; color:#5A5A5A;}
 
