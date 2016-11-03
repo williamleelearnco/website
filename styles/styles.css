@@ -24,7 +24,7 @@
     color: #FFFFFF;
 }
 .top{
-    background-color: #2C8FFF;
+    background-color: #A3C8E1;/*#BAD6E7;/*#2C8FFF;*/
     width:95%;
     margin:0 auto;
 }
@@ -58,12 +58,12 @@
 
 .exp{
     width: 95%;
-    background-color: #479DFF;
+    background-color: #8DB7D4;/*#9CC5E0;/*#479DFF;*/
     margin:0 auto;
 }
 .proj{
     width: 95%;
-    background-color: #479DFF;
+    background-color: #82ACCA;/*#84B3D2;/*#479DFF;*/
     margin:0 auto;
 }
 .projspace{
@@ -71,17 +71,17 @@
 }
 .awa{
     width: 95%;
-    background-color: #66ADFE;
+    background-color: #729AB6;/*#719DBB;/*#66ADFE;*/
     margin:0 auto;
 }
 .edu{
     width: 95%;
-    background-color: #94C6FF;
+    background-color: #6289A5;/*#668BA4;/*#94C6FF;*/
     margin:0 auto;
 }
 .contact{
     width: 95%;
-    background-color: #B9D9FF;
+    background-color: #4F728B;/*#557387;/*#B9D9FF;*/
     margin:0 auto;
 }
 
@@ -174,10 +174,10 @@ a.button:hover {
 }
 
 a.proj:link  {text-decoration: none; color: #FFFFFF;}
-a.proj:hover {text-decoration: none; color: black;}
-a.proj:active {text-decoration: none; color: #5A5A5A;}
-
+a.proj:hover {text-decoration: none; color: #4B4B4B;}
+a.proj:active {text-decoration: none; color: black;/*#5A5A5A;*/}
 
 a.git:link {text-decoration: none; color: black;}
 a.git:active {text-decoration: none; color:#5A5A5A;}
 
+a.jlink:link {text-decoration: line; color: #4B4B4B;}
