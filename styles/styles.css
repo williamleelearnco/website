@@ -10,21 +10,20 @@
 }
 
 
-
 #title1{
     font-size: 45px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    color: #FFFFFF;
+    color: #3C3C3C;/*#FFFFFF*/
 }
 .title2{
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
     padding-left: 55%;
-    color: #FFFFFF;
+    color: #3C3C3C;/*#FFFFFF*/
 }
 .top{
-    background-color: #A3C8E1;/*#BAD6E7;/*#2C8FFF;*/
+    background-color: #ADADAD;/*#A3C8E1;*//*#BAD6E7;/*#2C8FFF;*/
     width:95%;
     margin:0 auto;
 }
@@ -33,37 +32,37 @@
     padding-left: 1%;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
-    color: #FFFFFF;
+    color: #3C3C3C;/*#FFFFFF*/
 }
 .entrytitle{
     text-align: left;
     padding-left: 25%;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
-    color: #FFFFFF;
+    color: #3C3C3C;/*#FFFFFF*/
 }
 .projdescrip{
     display: inline;
     font-size: 15px;
     font-family: 'Ubuntu', sans-serif;
-    color: #FFFFFF;
+    color: #3C3C3C;/*#FFFFFF*/
 }
 .entrycontent{
     text-align: left;
     padding-left: 35%;
     font-size: 15px;
     font-family: 'Ubuntu', sans-serif;
-    color: #FFFFFF;
+    color: #3C3C3C;/*#FFFFFF*/
 }
 
 .exp{
     width: 95%;
-    background-color: #8DB7D4;/*#9CC5E0;/*#479DFF;*/
+    background-color: #B8B8B8;/*#9CC5E0;/*#479DFF;*/
     margin:0 auto;
 }
 .proj{
     width: 95%;
-    background-color: #82ACCA;/*#84B3D2;/*#479DFF;*/
+    background-color: #C7C7C7;/*#84B3D2;/*#479DFF;*/
     margin:0 auto;
 }
 .projspace{
@@ -71,24 +70,24 @@
 }
 .awa{
     width: 95%;
-    background-color: #729AB6;/*#719DBB;/*#66ADFE;*/
+    background-color: #D5D5D5;/*#719DBB;/*#66ADFE;*/
     margin:0 auto;
 }
 .edu{
     width: 95%;
-    background-color: #6289A5;/*#668BA4;/*#94C6FF;*/
+    background-color: #DFDFDF;/*#668BA4;/*#94C6FF;*/
     margin:0 auto;
 }
 .contact{
     width: 95%;
-    background-color: #4F728B;/*#557387;/*#B9D9FF;*/
+    background-color: #EFEFEF;/*#557387;/*#B9D9FF;*/
     margin:0 auto;
 }
 
 body{
     padding:0px;
     margin:0px;
-    background-color: #B9B9B9;
+    background-color: #E2E2E2;
 }
 .titletop{
     margin-top: 30px;
@@ -173,8 +172,8 @@ a.button:hover {
     padding-top:15px;
 }
 
-a.proj:link  {text-decoration: none; color: #FFFFFF;}
-a.proj:visited {text-decoration: none; color: #FFFFFF;}
+a.proj:link  {text-decoration: none; color: #3C3C3C;/*#FFFFFF*/;}
+a.proj:visited {text-decoration: none; color: #3C3C3C;/*#FFFFFF*/}
 a.proj:hover {text-decoration: none; color: #4B4B4B;}
 a.proj:active {text-decoration: none; color: black;/*#5A5A5A;*/}
 
