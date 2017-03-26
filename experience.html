@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Experiences | William Lee</title>
+
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand name barlink" href="index.html">
+                William J. Lee
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="barlink"><a href="index.html">About</a></li>
+            <li class="barlink"><a href="experience.html">Experience</a></li>
+            <li class="barlink"><a href="projects.html">Projects</a></li>
+            <li class="barlink"><a href="#">Awards</a></li>
+            <li class="barlink"><a href="#">Resume</a></li>
+            <!--<li><a href="#">Contact Me!</a></li>-->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="barlink"><a href="contact.html">Contact Me!</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--<div class="tile" id="tile1">-->
+    <!--experience 1-->
+<!--</div>-->
+<!--<div class="tile" id="tile2">-->
+    <!--experience 1-->
+<!--</div>-->
+
+<div class="title" style="background-color:#9AE084;">
+    <h1 class="titlecontent"><i>What I've been up to...</i></h1>
+</div>
+
+<div class="tile" id="tile1">
+
+    <div class="picdiv">
+    <img src="icons/urp_logo.JPG" width="70" height="70">
+    </div>
+
+    <div>
+        <h1 class="exptitle">UCLA Rocket Project - Programming/Electronics Lead</h1>
+        <h1 class="expcontent">Developing micro-controller and data graphing code for rocket data</h1>
+        <h1 class="expcontent">Manage project timelines, documentation, and track spending budget</h1>
+    </div>
+
+</div>
+
+<div class="tile" id="tile2">
+    <div class="picdiv">
+        <img src="icons/romela_logo.jpg" width="70" height="70">
+    </div>
+
+    <h1 class="exptitle">RoMeLa Robotics Lab - Undergraduate Researcher</h1>
+    <h1 class="expcontent">Developing Python code from LabVIEW library for Hexapod robot</h1>
+</div>
+
+<div class="tile" id="tile3">
+    <div class="picdiv">
+        <img src="icons/jet-logo.png" width="70" height="28">
+    </div>
+
+    <h1 class="exptitle">Nimrod's Wares - Summer Intern</h1>
+    <h1 class="expcontent">Assisted in developing software for online ordering and shipment processing <br>using Python and <a href="https://developer.jet.com/" target="_blank" class="jlink">Jet API </a>on Ubuntu
+        Linux platform</h1>
+</div>
+
+<div class="tile" id="tile4">
+    <div class="picdiv">
+        <img src="icons/uci_ics.png" width="70" height="70">
+    </div>
+
+    <h1 class="exptitle">UCI Donald Bren School of ICS - Research Intern</h1>
+    <h1 class="expcontent">Developed scripts in Java for parsing and formatting large BibTeX data sets</h1>
+</div>
+
+<script>
+$(document).ready(function() {
+
+$('#tile1').fadeIn("slow", function(){
+    $('#tile2').fadeIn("slow", function(){
+        $('#tile3').fadeIn("slow", function(){
+            $('#tile4').fadeIn("slow", function(){
+
+            });
+        });
+    });
+});
+
+})
+</script>
+
+
+
+</body>
+</html>
